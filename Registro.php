@@ -5,7 +5,7 @@
     if(!$conexion){
         die("Conexion fallida " . mysqli_connect_error());   
     }		
-    // data sent from form login.html 
+    // dsddata sent from form login.html 
     @$name = $_POST['Nombre'];
     @$password = $_POST['Contra'];
     @$email = $_POST['Correo']; 
