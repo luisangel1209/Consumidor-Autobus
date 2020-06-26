@@ -81,8 +81,8 @@
             @$a = json_encode($res);
             //print_r($a);
             @$obj = json_decode($a, TRUE);
-            print_r($obj);
-            print_r(count($obj));
+            //print_r($obj);
+            //print_r(count($obj));
             if(count((array)$obj ) != 3){
             foreach ($obj as $key => $value) {
             print "<tr>";
