@@ -1,6 +1,9 @@
 <?php
 @$nuevo = $_POST['IDAsientoNuevo'];
 ?>
+<?php
+include ("panel.php");
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,11 +18,11 @@
 <header>
 		<div class="header">
 			
-			<h1>Sistema Autobuces ADOL</h1>
+		<h1>Sistema Autobuces ADOL</h1>
 			<div class="optionsBar">
-				<p>Veracruz, 30 Junio de 2020</p>
 				<span>|</span>
 				<span class="user"></span>
+				<p>Bienvenido al sistema <?php echo $var; ?></p>
 				<img class="photouser" src="img/user.png" alt="Usuario">
 				<a href="CerrarSesion.php"><img class="close" src="img/salir.png" alt="Salir del sistema" title="Salir"></a>
 			</div>
