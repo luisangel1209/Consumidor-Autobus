@@ -1,7 +1,7 @@
 # Consumidor-Autobus
 Consumidor del Servicio Soap
 
-## Wiki 
+## Servicio Soap
 
 Revisa el proyecto en [GitHub](https://github.com/luisangel1209/Autobus)
 
